@@ -2728,7 +2728,7 @@ progress {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #5e72e4;
+  border-color: #a5cd38;
   outline: 0;
   box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
@@ -4898,7 +4898,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #5e72e4;
+  color: red;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
@@ -21154,8 +21154,8 @@ fieldset:disabled .btn {
 }
 
 .input-group .form-control:focus {
-  border-left: 1px solid #5e72e4 !important;
-  border-right: 1px solid #5e72e4 !important;
+  border-left: 1px solid #a5cd38 !important;
+  border-right: 1px solid #a5cd38 !important;
 }
 
 .input-group .form-control:not(:first-child) {
