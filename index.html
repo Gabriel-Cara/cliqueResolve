@@ -31,6 +31,7 @@
   <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="assets/css/argon-dashboard.css?v=2.0.2" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/dropzone.css">
 </head>
 
 <body class="">
@@ -128,31 +129,45 @@
                 </div>
                 <div class="card-body pb-3">
                   <form role="form text-left">
+
+                    <div class="row numbers justify-content-center">
+                      <label class="picture" for="picture__input" tabindex="0">
+                        <span class="picture__image">Selecione sua imagem</span>
+                      </label>
+                      <input type="file" accept="image/*" id="picture__input">
+                    </div>
+
                     <label>Nome</label>
                     <div class="input-group mb-3">
                       <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Nome" aria-describedby="name-addon">
                     </div>
+
                     <label>E-mail</label>
                     <div class="input-group mb-3">
                       <input type="email" class="form-control" placeholder="Digite seu e-mail" aria-label="Email" aria-describedby="email-addon">
                     </div>
+
                     <label>Senha</label>
                     <div class="input-group mb-3">
                       <input type="password" class="form-control" placeholder="Digite sua senha" aria-label="Password" aria-describedby="password-addon">
                     </div>
+
                     <label>Confirmar Senha</label>
                     <div class="input-group mb-3">
                       <input type="password" class="form-control" placeholder="Digite sua senha novamente" aria-label="Password-confirmation" aria-describedby="passwordConfirmation-addon">
                     </div>
+
                     <div class="form-check form-check-info text-left">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked="">
                       <label class="form-check-label" for="flexCheckDefault">
                         Eu concordo com os <a href="javascrpt:;" class="text-dark font-weight-bolder">Termos e Condicões de uso</a>
                       </label>
                     </div>
+
                     <div class="text-center">
                       <button type="button" class="btn bg-gradient-warning btn-lg btn-rounded w-100 mt-4 mb-0">Cadastrar</button>
                     </div>
+                    
                   </form>
                 </div>
                 <div class="card-footer text-center pt-0 px-sm-4 px-1">
