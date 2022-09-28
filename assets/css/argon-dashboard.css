@@ -10198,6 +10198,10 @@ fieldset:disabled .btn {
   color: #8392ab !important;
 }
 
+.text-favorite{
+  color: #ffdd01 !important;
+}
+
 .text-success {
   color: #2dce89 !important;
 }
@@ -10232,6 +10236,10 @@ fieldset:disabled .btn {
 
 .text-muted {
   color: #6c757d !important;
+}
+
+.text-logo{
+  color: #a5cd38 !important;
 }
 
 .text-black-50 {

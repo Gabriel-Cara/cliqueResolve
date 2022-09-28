@@ -13,7 +13,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8" />
@@ -100,16 +100,14 @@
               </div>
             </div>
             <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column">
-              <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style="background-image: url('assets/img/tela-login.jpg');
-                    background-size: cover;">
+              <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style="background-size: cover;">
 
                 <span class="mask bg-logo opacity-10"></span>
                 <h4 class="mt-5 text-white font-weight-bolder position-relative">
-                <img src="./assets/img/logo.png" alt="">
-                Plataforma que une quem precisa a quem pode resolver!
+                  <img src="./assets/img/logo.png" alt="logo" class="w-100">
+                  Plataforma que une quem precisa a quem pode resolver!
 
                 </h4>
-                <p class="text-white position-relative"></p>
               </div>
             </div>
           </div>
@@ -119,69 +117,69 @@
   </main>
 
 
-  <!-- Modal Cadastro -->
-  <div class="row">
-    <div class="col-md-4">  
-      <!-- Modal -->
-      <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="modalCadastroTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-          <div class="modal-content">
-            <div class="modal-body p-0">
-              <div class="card card-plain">
-                <div class="card-header pb-0 text-left">
-                    <h3 class="font-weight-bolder text-default ">Cadastre-se</h3>
-                    <p class="mb-0">Digite seu nome, e-mail e senha para registro.</p>
-                </div>
-                <div class="card-body pb-3">
-                  <form role="form text-left">
+    <!-- Modal Cadastro -->
+    <div class="row">
+      <div class="col-md-4">  
+        <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="modalCadastroTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <div class="card card-plain">
+                  <div class="card-header pb-0 text-left">
+                      <h3 class="font-weight-bolder text-default ">Cadastre-se</h3>
+                      <p class="mb-0">Digite seu nome, e-mail e senha para registro.</p>
+                  </div>
+                  <div class="card-body pb-3">
+                    <form role="form text-left">
 
-                    <div class="row numbers justify-content-center">
-                      <label class="picture" for="picture__input" tabindex="0">
-                        <span class="picture__img">
-                          Selecione uma imagem
-                        </span>
-                      </label>
-                      <input type="file" accept="image/*" id="picture__input">
-                    </div>
+                      <div class="row numbers justify-content-center">
+                        <label class="picture" for="picture__input" tabindex="0">
+                          <span class="picture__img">
+                            Selecione uma imagem
+                          </span>
+                        </label>
+                        <input type="file" accept="image/*" id="picture__input">
+                      </div>
 
-                    <label>Nome</label>
-                    <div class="input-group mb-3">
-                      <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Nome" aria-describedby="name-addon">
-                    </div>
+                      <label>Nome</label>
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Nome" aria-describedby="name-addon">
+                      </div>
 
-                    <label>E-mail</label>
-                    <div class="input-group mb-3">
-                      <input type="email" class="form-control" placeholder="Digite seu e-mail" aria-label="Email" aria-describedby="email-addon">
-                    </div>
+                      <label>E-mail</label>
+                      <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail" aria-label="Email" aria-describedby="email-addon">
+                      </div>
 
-                    <label>Senha</label>
-                    <div class="input-group mb-3">
-                      <input type="password" class="form-control" placeholder="Digite sua senha" aria-label="Password" aria-describedby="password-addon">
-                    </div>
+                      <label>Senha</label>
+                      <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Digite sua senha" aria-label="Password" aria-describedby="password-addon">
+                      </div>
 
-                    <label>Confirmar Senha</label>
-                    <div class="input-group mb-3">
-                      <input type="password" class="form-control" placeholder="Digite sua senha novamente" aria-label="Password-confirmation" aria-describedby="passwordConfirmation-addon">
-                    </div>
+                      <label>Confirmar Senha</label>
+                      <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Digite sua senha novamente" aria-label="Password-confirmation" aria-describedby="passwordConfirmation-addon">
+                      </div>
 
-                    <div class="form-check form-check-info text-left">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked="">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        Eu concordo com os <a href="javascrpt:;" class="text-dark font-weight-bolder">Termos e Condicões de uso</a>
-                      </label>
-                    </div>
+                      <div class="form-check form-check-info text-left">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked="">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Eu concordo com os <a href="javascrpt:;" class="text-dark font-weight-bolder">Termos e Condicões de uso</a>
+                        </label>
+                      </div>
 
-                    <div class="text-center">
-                      <button type="button" class="btn bg-gradient-warning btn-lg btn-rounded w-100 mt-4 mb-0">Cadastrar</button>
-                    </div>
-                    
-                  </form>
-                </div>
-                <div class="card-footer text-center pt-0 px-sm-4 px-1">
-                  <p class="mb-4 mx-auto">
-                    Já tem uma conta?
-                    <a href="/index.html" class="text-success text-gradient font-weight-bold">Login</a>
-                  </p>
+                      <div class="text-center">
+                        <button type="button" class="btn bg-gradient-warning btn-lg btn-rounded w-100 mt-4 mb-0">Cadastrar</button>
+                      </div>
+                      
+                    </form>
+                  </div>
+                  <div class="card-footer text-center pt-0 px-sm-4 px-1">
+                    <p class="mb-4 mx-auto">
+                      Já tem uma conta?
+                      <a href="/index.html" class="text-success text-gradient font-weight-bold">Login</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -189,8 +187,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- End Modal Cadastro -->
+    <!-- End Modal Cadastro -->
 
 
   <!-- Modal Esqueceu sua sena -->
