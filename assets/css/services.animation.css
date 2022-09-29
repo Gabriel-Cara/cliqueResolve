@@ -1,0 +1,9 @@
+.hov-services:hover{
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+    0%{transform: scale(1)}
+    50%{transform: scale(1.12)}
+    100%{transform: scale(1)}
+}
